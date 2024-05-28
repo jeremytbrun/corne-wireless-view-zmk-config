@@ -94,7 +94,7 @@
 
             bindings = <
 &hfak TAB GRAVE  &kp Q        &kp W        &kp E          &kp R         &kp T        &kp Y    &kp U         &kp I          &kp O        &kp P            &bmdk
-&kp LCTRL        &hml LGUI A  &hml LALT S  &hml LSHIFT D  &hml LCTRL F  &kp G        &kp H    &hmr RCTRL J  &hmr RSHIFT K  &hmr RALT L  &lt 3 SEMICOLON  &kp SQT
+&kp LCTRL        &hml LGUI A  &hml LALT S  &hml LSHIFT D  &hml LCTRL F  &kp G        &kp H    &hmr RCTRL J  &hmr RSHIFT K  &hmr RALT L  &lt 3 SEMICOLON  &hmr RGUI SQT
 &kp LSHFT        &kp Z        &kp X        &kp C          &kp V         &kp B        &kp N    &kp M         &kp COMMA      &kp DOT      &kp FSLH         &kp ESC
                                            &kp LGUI       &mo 1         &kp SPACE    &kp RET  &lmgl         &kp RALT
             >;
