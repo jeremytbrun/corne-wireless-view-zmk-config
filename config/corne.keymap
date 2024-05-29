@@ -47,7 +47,7 @@
             bindings = <&mo 2>, <&tog 4>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_LGUI)>;
+            mods = <(MOD_LSFT)>;
         };
 
         bmdk: bmdk {
