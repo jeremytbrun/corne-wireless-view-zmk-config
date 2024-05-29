@@ -102,9 +102,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&hfak TAB GRAVE  &kp Q        &kp W        &kp E          &kp R         &kp T    &kp Y  &kp U         &kp I          &kp O        &kp P            &bmdk
+&hfak TAB GRAVE  &kp Q        &kp W        &kp E          &kp R         &kp T    &kp Y  &kp U         &kp I          &kp O        &kp P            &kp ESC
 &kp LCTRL        &hml LGUI A  &hml LALT S  &hml LSHIFT D  &hml LCTRL F  &kp G    &kp H  &hmr RCTRL J  &hmr RSHIFT K  &hmr RALT L  &lt 3 SEMICOLON  &hmr RGUI SQT
-&kp LSHFT        &kp Z        &kp X        &kp C          &kp V         &kp B    &kp N  &kp M         &kp COMMA      &kp DOT      &kp FSLH         &kp ESC
+&kp LSHFT        &kp Z        &kp X        &kp C          &kp V         &kp B    &kp N  &kp M         &kp COMMA      &kp DOT      &kp FSLH         &kp RSHFT
                                            &kp LGUI       &mo 1         &bmdk    &smek  &lmgl         &kp RALT
             >;
         };
@@ -141,10 +141,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans      &trans        &trans        &trans        &trans        &trans          &trans  &trans        &kp UP        &trans     &trans  &trans
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &kp LEFT      &kp DOWN      &kp RIGHT  &trans  &trans
-&trans      &trans        &trans        &trans        &trans        &trans          &trans  &trans        &trans        &trans     &trans  &trans
-                                        &trans        &trans        &trans          &trans  &kp C_VOL_DN  &kp C_VOL_UP
+&trans      &trans        &trans        &trans        &trans        &trans          &trans      &trans        &kp UP        &trans     &trans  &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans      &kp LEFT      &kp DOWN      &kp RIGHT  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans          &trans      &trans        &trans        &trans     &trans  &trans
+                                        &trans        &trans        &trans          &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP
             >;
         };
 
