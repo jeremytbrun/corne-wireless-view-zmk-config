@@ -150,10 +150,10 @@
 
         game_base {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans    &trans
-&trans  &kp A   &kp S   &kp D   &kp F   &trans    &trans  &kp J   &kp K   &kp L   &kp SEMI  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans    &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans    &trans
+&trans  &kp A   &kp S   &kp D   &kp F   &trans       &trans  &kp J   &kp K   &kp L   &kp SEMI  &trans
+&trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans    &trans
+                        &mo 5   &trans  &kp SPACE    &trans  &trans  &trans
             >;
         };
 
