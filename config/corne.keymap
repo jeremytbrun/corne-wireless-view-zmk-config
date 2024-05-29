@@ -47,7 +47,7 @@
             bindings = <&mo 2>, <&tog 4>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
+            mods = <(MOD_LSFT|MOD_LGUI)>;
         };
 
         bmdk: bmdk {
@@ -89,6 +89,16 @@
             key-positions = <36 37>;
             layers = <4>;
         };
+
+        COMBO_RGUI {
+            bindings = <&kp RGUI>;
+            key-positions = <22 23>;
+        };
+
+        COMBO_LGUI {
+            bindings = <&kp LGUI>;
+            key-positions = <12 13>;
+        };
     };
 
     keymap {
@@ -103,7 +113,7 @@
 
             bindings = <
 &hfak TAB GRAVE  &kp Q        &kp W        &kp E          &kp R         &kp T    &kp Y  &kp U         &kp I          &kp O        &kp P            &kp ESC
-&kp LCTRL        &hml LGUI A  &hml LALT S  &hml LSHIFT D  &hml LCTRL F  &kp G    &kp H  &hmr RCTRL J  &hmr RSHIFT K  &hmr RALT L  &lt 3 SEMICOLON  &hmr RGUI SQT
+&kp LCTRL        &hml LGUI A  &hml LALT S  &hml LSHIFT D  &hml LCTRL F  &kp G    &kp H  &hmr RCTRL J  &hmr RSHIFT K  &hmr RALT L  &lt 3 SEMICOLON  &kp SQT
 &kp LSHFT        &kp Z        &kp X        &kp C          &kp V         &kp B    &kp N  &kp M         &kp COMMA      &kp DOT      &kp FSLH         &kp RSHFT
                                            &kp LGUI       &mo 1         &bmdk    &smek  &lmgl         &kp RALT
             >;
