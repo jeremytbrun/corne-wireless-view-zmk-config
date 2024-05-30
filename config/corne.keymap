@@ -100,7 +100,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "shift_tapdance_capslock";
             #binding-cells = <0>;
-            bindings = <&sk LSHFT>, <&none>, <&kp CAPSLOCK>;
+            bindings = <&skq LSHIFT>, <&none>, <&kp CAPSLOCK>;
         };
 
         skq: skq {
