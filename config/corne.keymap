@@ -102,6 +102,15 @@
             #binding-cells = <0>;
             bindings = <&sk LSHFT>, <&none>, <&kp CAPSLOCK>;
         };
+
+        skq: skq {
+            compatible = "zmk,behavior-sticky-key";
+            label = "sticky_keys_quick_release";
+            bindings = <&kp>;
+            #binding-cells = <1>;
+            release-after-ms = <1000>;
+            quick-release;
+        };
     };
 
     combos {
