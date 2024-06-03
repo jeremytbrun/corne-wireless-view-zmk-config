@@ -44,7 +44,7 @@
         lmgl: lmgl {
             compatible = "zmk,behavior-mod-morph";
             label = "layer_morph_game_layer";
-            bindings = <&mo 2>, <&tog 4>;
+            bindings = <&mo 2>, <&stdgl>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
@@ -110,6 +110,13 @@
             #binding-cells = <1>;
             release-after-ms = <1000>;
             quick-release;
+        };
+
+        stdgl: stdgl {
+            compatible = "zmk,behavior-tap-dance";
+            label = "shift_tapdance_game_layer";
+            #binding-cells = <0>;
+            bindings = <&none>, <&none>, <&tog 4>;
         };
     };
 
@@ -213,10 +220,10 @@
 
         game_overlay {
             bindings = <
-&trans  &kp P     &kp O    &kp I      &kp U   &kp Y     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp SEMI  &kp L    &kp K      &kp J   &kp H     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp FSLH  &kp DOT  &kp COMMA  &kp M   &kp N     &trans  &trans  &trans  &trans  &trans  &trans
-                           &trans     &trans  &trans    &trans  &trans  &trans
+&kp BACKSPACE  &kp P     &kp O    &kp I      &kp U   &kp Y     &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &kp SEMI  &kp L    &kp K      &kp J   &kp H     &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &kp FSLH  &kp DOT  &kp COMMA  &kp M   &kp N     &trans  &trans  &trans  &trans  &trans  &trans
+                                  &trans     &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
