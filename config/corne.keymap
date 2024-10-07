@@ -201,7 +201,7 @@
                         &trans  &trans  &trans    &trans  &trans     &trans
             >;
 
-            label = "Num";
+            label = "numsym";
         };
 
         nav_util {
@@ -218,7 +218,7 @@
                                         &trans        &trans        &trans          &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP
             >;
 
-            label = "Nav";
+            label = "navutil";
         };
 
         game_base {
@@ -229,7 +229,7 @@
                            &mo 4   &mo 1   &kp SPACE    &trans  &trans  &trans
             >;
 
-            label = "Game";
+            label = "game";
         };
 
         game_overlay {
@@ -239,6 +239,8 @@
 &trans         &kp FSLH  &kp DOT  &kp COMMA  &kp M   &kp N     &trans  &trans  &trans  &trans  &trans  &trans
                                   &trans     &trans  &trans    &trans  &trans  &trans
             >;
+
+            label = "gameover";
         };
     };
 
