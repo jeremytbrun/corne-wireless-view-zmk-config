@@ -190,7 +190,7 @@
                                       &kp LGUI        &mo 1          &bmd     &sme   &lmgl          &kp RALT
             >;
 
-            label = "default";
+            label = "base";
         };
 
         numbers_symbols {
@@ -240,7 +240,7 @@
                                   &trans     &trans  &trans    &trans  &trans  &trans
             >;
 
-            label = "gameover";
+            label = "gameovr";
         };
     };
 
